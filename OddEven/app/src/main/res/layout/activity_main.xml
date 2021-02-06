@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="639dp"
+        android:ems="10"
+        android:hint="Start"
+        android:inputType="numberSigned"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="589dp"
+        android:ems="10"
+        android:hint="End"
+        android:inputType="numberSigned"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="521dp"
+        android:text="Odd / Even"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/odd"
+        android:layout_width="198dp"
+        android:layout_height="510dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal"
+        android:scrollbars="vertical"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/even"
+        android:layout_width="198dp"
+        android:layout_height="511dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal"
+        android:scrollbars="vertical"
+        android:textSize="20dp" />
+
+</RelativeLayout>

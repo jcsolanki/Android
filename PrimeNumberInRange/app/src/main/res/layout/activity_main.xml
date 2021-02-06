@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="607dp"
+        android:ems="10"
+        android:hint="Start"
+        android:inputType="numberSigned"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="547dp"
+        android:ems="10"
+        android:hint="End"
+        android:inputType="numberSigned"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="481dp"
+        android:text="Prime | Not Prime" />
+
+    <TextView
+        android:id="@+id/prime"
+        android:layout_width="202dp"
+        android:layout_height="472dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:layout_marginBottom="4dp"
+        android:text="Prime"
+        android:scrollbars="vertical"
+        android:gravity="center_horizontal"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/notPrime"
+        android:layout_width="202dp"
+        android:layout_height="472dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center_horizontal"
+        android:scrollbars="vertical"
+        android:text="Not Prime"
+        android:textSize="25dp" />
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/LikeIncreaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="90dp"
+        android:text="Like +" />
+
+    <Button
+        android:id="@+id/LikeDecreaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LikeText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="90dp"
+        android:text="Like -" />
+
+    <Button
+        android:id="@+id/DislikeIncreaseButton"
+        android:layout_width="127dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="84dp"
+        android:layout_toEndOf="@+id/LikeIncreaseButton"
+        android:text="Dislike +" />
+
+    <Button
+        android:id="@+id/DislikeDecreaseButton"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DislikeText"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="96dp"
+        android:layout_toEndOf="@+id/LikeDecreaseButton"
+        android:text="Dislike -" />
+
+    <TextView
+        android:id="@+id/LikeText"
+        android:layout_width="106dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/LikeIncreaseButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="90dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/DislikeText"
+        android:layout_width="112dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/DislikeIncreaseButton"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="87dp"
+        android:layout_toEndOf="@+id/LikeText"
+        android:textSize="20dp" />
+
+</RelativeLayout>
